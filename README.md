@@ -1,2 +1,12 @@
 # http_client
-basic HTTP client using libsocket
+
+Basic HTTP-1 client using libsocket
+
+Dependencies : 
+
+  libsocket - https://github.com/dermesser/libsocket
+  
+Compilation :
+
+  gcc -o http_get_libsocket http_get_libsocket.c -lsocket
+  
