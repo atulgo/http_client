@@ -2,10 +2,9 @@
 
 Basic HTTP-1 client using libsocket
 
-Usage :  
-       ./http_get_libsocket [ <url> | -h | --help | -? ] 
+Usage :  ./http_get_libsocket [ \<url\> | -h | --help | -? ] 
 
-==> if no command line arguments are provided the program fetches "http://api.ipify.org/"
+default : if no command line arguments are provided the program fetches "http://api.ipify.org/"
 
 Dependencies : libsocket - https://github.com/dermesser/libsocket
   
